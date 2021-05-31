@@ -23,8 +23,7 @@ extern sf::Color traversingCellColor;
 
 void fillVisitedArray();
 void solveBFS(const std::vector<std::vector<bool>>& vec,const int startX,const int startY,const int endX ,const int endY);
-void delaySmall();
-void delayLarge();
+void delay(int milliSeconds);
 void fillVisitedArray();
 void drawRec();
 void solve(const std::vector<std::vector<bool>>& vec,int startX,int startY,int endX ,int endY);

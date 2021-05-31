@@ -1,16 +1,15 @@
 #include "functions.h"
+#include <SFML/System/Clock.hpp>
 
 // to intruduce delay for graphics
-void delaySmall()
+void delay(int milliSeconds)
 {
-    using namespace std::this_thread;     // sleep_for, sleep_until
-    using namespace std::chrono_literals; // ns, us, ms, s, h, etc.
-    sleep_for(10ms);
+    sf::Clock clock;
+    clock.restart();
+    while(clock.getElapsedTime().asMilliseconds()<milliSeconds)
+    {
+    }
+    clock.restart();
 }
-void delayLarge()
-{
-    using namespace std::this_thread;     // sleep_for, sleep_until
-    using namespace std::chrono_literals; // ns, us, ms, s, h, etc.
-    sleep_for(100ms);
-}
+
 

@@ -59,7 +59,7 @@ void solveBFS(const std::vector<std::vector<bool>>& vec,const int startX,const i
                     distance[y+calVec[i].second][x+calVec[i].first] = distance[y][x]+1;
                     visitedArray[y+calVec[i].second][x+calVec[i].first]=true;
                     {
-                        delaySmall();
+                        delay(10);
                         recArr[y+calVec[i].second][x+calVec[i].first].setFillColor(traversingCellColor);
                         window.clear(backGroundColor);
                         drawRec();

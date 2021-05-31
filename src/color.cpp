@@ -33,7 +33,7 @@ void colorResultCells(std::vector<std::vector<sf::RectangleShape>>& recArr)
         std::cout<<"success"<<std::endl;
         for(size_t i = 1;i<result.size()-1;++i)
         {
-            delayLarge();
+            delay(70);
             window.clear(backGroundColor);
             recArr[result[i].second][result[i].first].setFillColor(sf::Color::Magenta);
             drawRec();
