@@ -50,10 +50,12 @@ Simply type `make` to build from from source for linux
 ### Maze key board navigation
 
 * A - Generate maze
+
 * S - Generate start and end
 * D - Solve the maze thru BFS
 
 ### Here is a short video showing the actual traversal
 
-![Demo](https://github.com/amballip/temp_for_images/blob/6ddd40a16a90bd859e028e266d76f83615169565/Final_video.mkv)
+https://user-images.githubusercontent.com/72073039/120307647-da93f000-c2f0-11eb-9757-931e1f9868d3.mp4
+
 
